@@ -1,0 +1,152 @@
+/* Tablets (1024px and below) */
+@media only screen and (max-width: 1023px) {
+    .row {
+        width: 90%;
+    }
+
+    .main-nav {
+        float: none;
+        text-align: center;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .section-features .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cities .row,
+    .reviews-section {
+        flex-direction: column;
+    }
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
+    .section-plans .low {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .store-buttons {
+        flex-direction: column;
+    }
+
+    .btn-play img,
+    .btn-app img {
+        height: 50px;
+    }
+}
+
+/* Small tablets and large phones (767px and below) */
+@media only screen and (max-width: 767px) {
+    .hero-text-box h1 {
+        font-size: 180%;
+    }
+
+    .section-features .col {
+        flex: 1 1 100%;
+    }
+
+    .meals-showcase li {
+        width: 100%;
+    }
+
+    .steps-box {
+        padding: 0;
+    }
+
+    .phone {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .works-steps {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .works-steps div {
+        margin-bottom: 10px;
+    }
+
+    .cols-of-three {
+        max-width: 90%;
+    }
+
+    .cow {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .span-1-of-69 {
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .main-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-nav li {
+        margin: 15px 0;
+    }
+
+    .main-nav a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+}
+
+/* Small phones (480px and below) */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+
+    .hero-text-box {
+        width: 90%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 150%;
+    }
+
+    .btn-full,
+    .btn-ghost {
+        padding: 8px 15px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mycol {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .section-form {
+        padding: 20px;
+    }
+}
